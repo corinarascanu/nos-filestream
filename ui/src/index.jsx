@@ -1,21 +1,15 @@
 import "babel-polyfill";
 import React from "react";
 import ReactDOM from "react-dom";
+import { BrowserRouter } from 'react-router-dom';
 
-import { create as createJss } from "jss";
-import camelCase from "jss-camel-case";
-import globalStyles from "jss-global";
-import vendorPrefixer from "jss-vendor-prefixer";
-import { JssProvider } from "react-jss";
-
-import App from "./views/App";
-
-const jss = createJss();
-jss.use(vendorPrefixer(), camelCase(), globalStyles());
+import App from "./root/components/App";
 
 ReactDOM.render(
-  <JssProvider jss={jss}>
-    <App />
-  </JssProvider>,
+  <BrowserRouter>
+    <div>
+      test
+    </div>
+  </BrowserRouter>,
   document.getElementById("root")
 );
