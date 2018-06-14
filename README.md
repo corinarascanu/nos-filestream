@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ## Neo Filestream - File Sharing App
 
 Keep track of the influence you've had on companies/events.
@@ -64,7 +63,11 @@ build /smart-contracts/neo_filestream.py test 0710 02 True False 'company-name' 
 import contract /smart-contracts/neo_filestream.avm 0710 05 True False
 ```
 
+## Start UI
+```
+cd ui
+yarn start
+// Open the nOS client at nos://localhost:1234
+```
+
 This is a work in progress
-=======
-# nos-filestream
->>>>>>> 024cf897767485636a716755769008f8666bb504
