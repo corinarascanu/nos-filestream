@@ -1,3 +1,41 @@
+body {
+  background: #dfe6e9;
+  margin: 0;
+}
+
 #root {
-  background: #f5f5f5;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.app {
+  display: grid;
+  grid-template-columns: 1fr 7fr;
+}
+
+.body {
+  height: 100vh;
+  background: #f1f2f6;
+}
+
+.menu {
+  background: #ffffff;
+  height: 100vh;
+}
+
+.menu ul {
+  display: inline-grid;
+  padding: 1em;
+}
+
+.menu ul li {
+  padding: 1em;
+  list-style: none;
+}
+
+.menu ul li a {
+  text-decoration:none;
+  font-weight: 700;
+  text-transform: lowercase;
+  font-size: 1em;
+  color: #5352ed;
 }
