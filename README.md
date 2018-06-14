@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Neo Filestream - File Sharing App
 
 Keep track of the influence you've had on companies/events.
@@ -64,3 +65,6 @@ import contract /smart-contracts/neo_filestream.avm 0710 05 True False
 ```
 
 This is a work in progress
+=======
+# nos-filestream
+>>>>>>> 024cf897767485636a716755769008f8666bb504
